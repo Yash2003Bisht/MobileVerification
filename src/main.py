@@ -7,7 +7,7 @@ def print_data(data: dict):
 def main():
     url = "https://api.apilayer.com/number_verification/validate?number={}"
     headers = {
-        "apikey": "6pYPc1njfaiaU9jRjYAR1Oe8RZwYCRyW"
+        "apikey": "Add you API key here"
     }
     number = input("Enter your number with country code, for ex 91123456789: ")
     response = requests.request("GET", url.format(number), headers=headers)
